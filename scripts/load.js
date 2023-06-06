@@ -22,7 +22,7 @@ function local(){
 
 }
 function friends(){
-
+  location.href="framenetwork.html"
 }
 function online(){
 
