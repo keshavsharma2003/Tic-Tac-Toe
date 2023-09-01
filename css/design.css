@@ -1,8 +1,5 @@
-.mainbody{
-      background-color: darkcyan;
-}
 .body{
-      background-color: darkcyan;
+      background-color: rgb(212, 199, 224);
 }
 .card{
       width: 100px;
@@ -17,16 +14,49 @@
       padding-left: 40%; 
 }
 #login{
-      background-color: aliceblue;
+      background-color: rgb(3, 120, 222);
       float: right;
+      border-radius: 5px;
+      color: white;
+      padding: 10px;
+      font-size: large;
 }
 #login:hover{
-      background-color: aqua;
-      text-decoration-color: blue;
+      background-color: rgb(245, 249, 249);
+      color: rgb(191, 26, 26);
 }
 .tiles{
       align-items: center;
 }
 .innerdiv{
-      background-color: darkcyan;
+      background-color: rgb(98, 12, 151);
+}
+.text-center{
+      font-size: xx-large;
+      text-align: center;
+}
+.text{
+      font-size: large;
+}
+.btn{
+      background-color: blueviolet;
+      border-radius: 5px;
+      color: white;
+      padding: 10px;
+      font-size: xx-large;
+}
+.row{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+.borderBox{
+      border: 2px solid rgb(38, 38, 73);
+      border-radius: 20px;
+      background-color: rgb(122, 122, 211);
+      align-items: center;
+      justify-content: center;
+}
+#section_1{
+      margin-top: 100px;
 }

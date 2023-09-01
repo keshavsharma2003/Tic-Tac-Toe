@@ -10,8 +10,6 @@ function askUserName() {
   button2.addEventListener('click',local);
   const button3= document.querySelector('#friends');
   button3.addEventListener('click',friends);
-  const button4= document.querySelector('#online');
-  button4.addEventListener('click',online);
 }
 function computer(){
   location.href="framecomputer.html";
@@ -23,7 +21,4 @@ function local(){
 }
 function friends(){
   location.href="framenetwork.html"
-}
-function online(){
-
 }
